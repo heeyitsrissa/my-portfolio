@@ -10,4 +10,6 @@ My goal was to create a portfolio to showcase my work, contact information and s
  Deployed application link: https://heeyitsrissa.github.io/my-portfolio/
 
  screenshot of deployed application: ![Alt text](assets/images/screenshot-of-deployed-application.png)
- 
+
+ ## License 
+ https://img.shields.io/badge/license-MIT-blue
