@@ -1,8 +1,8 @@
 :root {
-    --header: saddlebrown;
+    --header: #67330E;
     --shadow: 1px 1px 2px palevioletred;
     --header2: palevioletred;
-    --shadow2: 1px 1px 2px saddlebrown;
+    --shadow2: 1px 1px 2px #67330E;
 }
 
 *{
@@ -121,15 +121,36 @@ h2::before, h3::before, h4::before, h5::before {
 }
 
 #work ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     list-style-type: none;
     text-align: center;
     color: rgb(83, 41, 11);
     font-size: 20px;
 }
+
+#border-box{
+    width:300px;
+    height: 275px;
+    border: 5px solid #67330E;
+    background-color: navajowhite;
+}
+
+#border-box:hover {
+    box-shadow: 4px 4px 3px palevioletred;
+    text-shadow: var(--shadow);
+}
+
+#coming-soon {
+    width: 200px;
+    height: 200px;
+    
+}
 #frame{
     width: 300px;
     height: 450px;
-    border: 5px solid saddlebrown;
+    border: 5px solid #67330E;
     background-color: navajowhite;
     padding: 15px 10px;
     margin-left: 20px;
@@ -141,10 +162,9 @@ h2::before, h3::before, h4::before, h5::before {
     text-shadow: var(--shadow);
 }
 
-img {
-
+#horiseon{
     width: 100%;
-    height: 100%;
+    height: 95%;
 }
 
 #contact-me ul {
@@ -193,14 +213,16 @@ h6 {
         color: var(--header2);
         text-shadow: var(--shadow2);
     }
+
     .title::after, 
-.title::before {
+    .title::before {
     content: '⋆';
     margin-left: 20px;
     margin-right: 20px;
     color: var(--header);
     text-shadow: var(--shadow);
-}
+    }
+
      nav a {
         color: var(--header2);
      }
@@ -230,9 +252,22 @@ h6 {
         margin-bottom: 20px;
     }
     #frame:hover {
-        box-shadow: 4px 4px 3px saddlebrown;
+        box-shadow: 4px 4px 3px #67330E;
         text-shadow: var(--shadow2);
     }
+
+    #border-box{
+        width:300px;
+        height: 275px;
+        border: 5px solid palevioletred;
+        background-color: #90EE90;
+    }
+
+    #border-box:hover {
+        box-shadow: 4px 4px 3px #67330E;
+        text-shadow: var(--shadow2);
+    }
+    
     #work ul {
         list-style-type: none;
         text-align: center;
