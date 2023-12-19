@@ -269,9 +269,16 @@ h6 {
     }
     
     #work ul {
+        display: flex;
+        flex-wrap: wrap;
         list-style-type: none;
         text-align: center;
         color: var(--header2);
         font-size: 20px;
     }
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
 }
