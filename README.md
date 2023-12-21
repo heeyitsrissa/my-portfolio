@@ -1,7 +1,7 @@
 # my-portfolio
 
 ## Desciption
-My goal was to create a portfolio to showcase my work, contact information and share things about myself. I created this website to show to protential employeers so they can see my work, resume, and personal information about me. During this challenge I learned how to build an HTML and CSS stylesheet from scratch for the first time.
+My goal was to create a portfolio to showcase my work, contact information and share things about myself. I created this website to show to protential employeers so they can see my work, resume, and personal information about me. During this challenge I learned how to build an HTML and CSS stylesheet from scratch for the first time. With this challange I had a lot of fun playing with the style of the webpage with what we learned so far, though my lay out isnt exactly like the sample webpage shown I made sure all criteria was met.
 
 ## Installation 
  Going into this challenge the fist thing I did was write out my HTML layout the was I
